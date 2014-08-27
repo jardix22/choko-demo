@@ -13,3 +13,13 @@ blog.navigation = function(navigations, callback) {
 
   callback();
 };
+
+/**
+ * The role() hook.
+ */
+blog.role = function (roles, callback) {
+  // Grant new permission to all authenticated users.
+  roles['authenticated'].permissions.push('manage-blog');
+
+  callback(null, {});
+};
