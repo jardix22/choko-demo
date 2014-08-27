@@ -1,5 +1,5 @@
 {
-  "path": "/blog/:name",
+  "path": "/blog/:id",
   "title": "Blog post",
   "type": "item",
   "itemType": "blog",
