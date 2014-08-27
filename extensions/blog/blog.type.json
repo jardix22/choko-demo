@@ -2,7 +2,13 @@
   "title": "Blog post",
   "description": "A simple blog post.",
   "storage": "database",
+  "keyProperty": "id",
   "fields": {
+    "id": {
+      "title": "Id",
+      "type": "id",
+      "internal": true
+    },
     "name": {
       "title": "Name",
       "type": "text"
